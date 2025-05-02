@@ -27,7 +27,7 @@ func main() {
 	// Read configuration from environment variables
 	// Best practice: Use a dedicated config file or flags for production
 	apiToken := os.Getenv("CF_API_TOKEN")
-	zoneName := os.Getenv("CF_ZONE_NAME")   // e.g., "example.com"
+	zoneName := os.Getenv("CF_ZONE_NAME")     // e.g., "example.com"
 	recordName := os.Getenv("CF_RECORD_NAME") // e.g., "home.example.com" or "example.com"
 
 	if apiToken == "" || zoneName == "" || recordName == "" {
