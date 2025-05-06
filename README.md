@@ -34,7 +34,7 @@ Before you begin, ensure you have the following:
 4.  **Domain Managed by Cloudflare:** The domain for which you want to update DNS records must be managed by Cloudflare.
 5.  **Cloudflare API Token:**
     *   Generate a token with **Edit zone DNS** permissions.
-    *   Go to Cloudflare Dashboard -> My Profile -> API Tokens -> Create Token.
+    *   Go to Cloudflare Dashboard -> Manage Account -> Account API Tokens -> Create Token.
     *   Use the "Edit zone DNS" template.
     *   Permissions needed: `Zone:Zone:Read`, `Zone:DNS:Edit`.
     *   Zone Resources: Select the specific zone(s) this token should manage (e.g., `Include -> Specific zone -> yourdomain.com`).
